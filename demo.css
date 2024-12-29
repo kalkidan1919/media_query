@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    font-family: "Yellowtail", cursive;
+    background-color: #c800ff41;
+    color: rgb(61, 7, 7);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+    font-weight: 80pxpx;
+}
+.paragraph p{
+    margin: 10px 10px;
+}
+.all-images {
+    height: 310px;
+    width: 308px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 30px auto;
+}
+.image1{
+    background-image: url(./images/puppy-1.jpg);
+    
+}
+.image2{
+    background-image: url(./images/puppy-2.jpg);
+}
+@media (min-width:700px){
+      .paragraph{
+        display: flex;
+    
+        
+      }
+      .p2{
+        display: none;
+      }
+      .images{
+        display: flex;
+        width: 690px;
+        margin: 0 auto;
+      }
+      .image2{
+        background-image: url(./images/puppy-3.jpg);
+      }
+}
+@media (min-width:1000px){
+    .p2{
+        display: block;
+    }
+     .paragraph p{
+        background-color: green;
+        color: white;
+    }
+    .images{
+        width: 950px;
+    }
+    .paragraph{
+        width: 950px;
+        margin: 0 auto;
+    }
+}
